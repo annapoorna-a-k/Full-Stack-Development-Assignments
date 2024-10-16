@@ -1,0 +1,42 @@
+
+.reviews-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.reviews-title {
+    font-family: 'Gowun Batang', serif;
+    font-size: 2.5em;
+    color: #fa8072;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fa8072;
+    padding-bottom: 15px;
+}
+
+.review {
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.review h2 {
+    font-family: 'Gowun Batang', serif;
+    color: #fa8072;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.review p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.5;
+}

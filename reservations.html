@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservations - Anna's Kitchen</title>
+    <link rel="stylesheet" href="menu-styles.css">
+    <link rel="stylesheet" href="reservations-styles.css">
+</head>
+<body>
+    <div class="main-background"></div>
+    <div class="black-opacity"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="food-gallery.html">Food Gallery</a></li>
+                <li><a href="customer-reviews.html">Customer Reviews</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="reservations-container">
+        <h1 class="reservations-title">Make a Reservation</h1>
+        <p>We'd love to have you! Please fill in the form below to reserve a table at Anna's Kitchen.</p>
+
+        <form class="reservation-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Reservation Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+            </div>
+
+            <button type="submit">Reserve Table</button>
+        </form>
+    </div>
+</body>
+</html>

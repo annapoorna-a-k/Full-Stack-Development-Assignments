@@ -1,0 +1,67 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.main-background {
+    background: url('images/events.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.black-opacity {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.h2-head{
+    font-family: 'Gowun Batang', serif;
+    font-size: 1.0em;
+    color: #d3c1c0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #b0a3a1;
+    padding-bottom: 15px;
+}
+.events-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.events-title {
+    font-family: 'Gowun Batang', serif;
+    font-size: 2.5em;
+    color: #fa8072;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fa8072;
+    padding-bottom: 15px;
+}
+
+.events-list {
+    list-style: none;
+    padding: 0;
+}
+
+.events-list li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 15px;
+}
+
+.events-list h2 {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+.events-list p {
+    font-size: 1em;
+}

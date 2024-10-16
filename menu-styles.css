@@ -1,0 +1,120 @@
+body {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.main-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('images/main_back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.525);
+    z-index: -1;
+}
+
+.black-opacity{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.525);
+    z-index: -1; 
+}
+
+header {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: rgba(189, 128, 119, 0.8);
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(128, 91, 82, 0.299);
+    transform: scale(1.1);
+}
+
+.main-content {
+    position: relative;
+    top: 80px;
+    padding: 50px 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.menu-section {
+    margin-bottom: 30px;
+}
+
+.menu-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+}
+
+.menu-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.menu-table tr {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 0; 
+}
+
+.menu-table td {
+    flex: 1; 
+    color: white; 
+}
+
+.menu-table .dish {
+    text-align: right;
+}
+
+.menu-table .price {
+    text-align: left; 
+}
+
+button {
+    font-size: 1em;
+    color: white;
+    background-color: rgba(189, 128, 119, 0.8);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7a5e58;
+}
