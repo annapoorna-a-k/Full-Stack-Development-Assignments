@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel and 4 Cards Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .carousel img {
+            width: 100%; 
+            height: 250px; 
+            object-fit: cover; 
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .card-body {
+            text-align: center;
+        }
+        .icon {
+            font-size: 24px;
+        }
+        .cards-row {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="topCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="about.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="faq.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="food_gallery.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#topCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#topCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="cards-row">
+    <div class="card" style="width: 18rem;">
+        <img src="baked-chicken-wings-with-teriyaki-sauce.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Chicken Wings</h5>
+            <p class="card-text">Baked Chicken wings with Teriyaki Sauce</p>
+            <i class="bi bi-star icon"></i>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="caprese-salad-healthy-meal-with-cherry-tomatoes-mozzarella-balls-basil-home-made-tasty-food-concept-tasty-healthy-vegetarian-meal.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Caprese Salad</h5>
+            <p class="card-text">Caprese Salad with Cherry Tomatoes Mozzarella Balls</p>
+            <i class="bi bi-heart icon"></i>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="tiramisu-cake-with-cocoa-coffee-black-background_123827-29270.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Tiramisu</h5>
+            <p class="card-text">Tirammisu cake with Cocoa Coffee</p>
+            <i class="bi bi-lightning icon"></i>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="top-view-caesar-salad-oval-plate-green-white-checkered-tablecloth-fork-bowl-with-dried-crust-dark-red-background.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Caesar Salad</h5>
+            <p class="card-text">Caesar Salad with plenty of vegetables</p>
+            <i class="bi bi-alarm icon"></i>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
